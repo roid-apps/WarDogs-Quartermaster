@@ -4,13 +4,15 @@ Updated September 25, 2026.
 
 ## Personal records
 
-Your manually entered cash, K/D/A, session notes, loadouts, favorites, plans, progression and appearance settings are saved on your computer. Settings provides a data-folder control and JSON backup export/restore. Exported files contain your records; share them only when you intend to.
+Your manually entered cash, K/D/A, session notes, loadouts, favorites, plans, progression, profile picture and appearance settings are saved on your computer. Settings provides a data-folder control and JSON backup export/restore. Exported files contain your records; share them only when you intend to.
+
+Profile pictures are centered, resized to 96 pixels and re-encoded as JPEG before saving or sharing. The original image filename and metadata are not uploaded. Choose **Use initials** in Settings to remove the picture. A personal JSON backup includes your saved picture.
 
 Quartermaster does not read game memory, capture your screen, monitor game traffic or collect Steam credentials. No app analytics or telemetry is included.
 
 ## Optional squad rooms
 
-Connecting to a relay sends your display name, selected role, loadout name/cost and readiness. Cash and K/D/A are shared only when you opt in. Room chat, briefings, tasks and explicitly published boards are shared with the room. Personal match-review notes are not automatically published.
+Connecting to a relay sends your display name, selected role, loadout name/cost, readiness and your chosen profile picture. Cash and K/D/A are shared only when you opt in. Room chat, briefings, tasks and explicitly published boards are shared with the room. Personal match-review notes are not automatically published.
 
 The relay operator can read shared content and ordinary connection metadata, including IP addresses. HTTPS protects transport; room messages are not end-to-end encrypted. Internet connections require HTTPS. Local loopback testing permits HTTP.
 
