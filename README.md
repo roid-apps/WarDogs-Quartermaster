@@ -64,7 +64,7 @@ When updating, export a JSON backup in Settings and close the older app first. E
 
 **References have dates.** Equipment prices use a September 22, 2026 community snapshot. A September 25 index check hides six no-longer-listed entries by default; it did not refresh every price. Verify current prices, unlocks and compatibility in game. Boards are planning schematics, not game terrain or validated inventory packing. Detailed maps and 3D tools open on their reference websites.
 
-**Independent and unsigned.** This preview is not publisher-approved and does not carry a ban-free guarantee. It has no game-memory access, injection or gameplay automation. Use it for planning and recordkeeping outside gameplay pending publisher confirmation. The Windows executable is unsigned.
+**A separate desktop companion.** Quartermaster helps with planning and manual recordkeeping. It has no game-memory access, injection or gameplay automation. The Windows executable is unsigned.
 
 **Checks performed:** 41 automated tests and four packaged Windows UI suites passed, plus Windows/Linux automated checks on GitHub. These checks do not establish live-game compatibility or separate-computer internet hosting reliability.
 
