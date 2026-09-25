@@ -14,10 +14,12 @@ Connecting to a relay sends your display name, selected role, loadout name/cost 
 
 The relay operator can read shared content and ordinary connection metadata, including IP addresses. HTTPS protects transport; room messages are not end-to-end encrypted. Internet connections require HTTPS. Local loopback testing permits HTTP.
 
-Invite codes grant access to a room. Share them privately. Authentication tokens stay in application memory. Rooms and the last 60 chat messages are held temporarily by the relay; a restart clears them, and inactive rooms expire. Local personal records remain on each player's computer.
+Invite codes grant access to a room. Share them privately. Guest authentication tokens stay in application memory. Advanced relay rooms are temporary and inactive rooms expire. When a player uses **Team server**, the host retains the briefing, objectives, shared boards and last 60 chat messages on their computer, with a previous-copy backup. The server owner key is saved using Windows encryption; guests do not acquire ownership when the host disconnects. Guest presence, authentication tokens and optional cash/K/D/A profiles are not persisted in the team file. Local personal records remain on each player’s computer. Team files are separate from personal JSON backup exports.
 
-No hosted service or account system is provided with this download. If you use someone else's relay, their hosting and logging practices also apply.
+No always-on hosted service or account system is provided with this download. The host can stop hosting or lock new joins. Removing a member disconnects their current session; it does not permanently block that person, and an unlocked invitation can be reused. If you use someone else's relay, their hosting and logging practices also apply.
 
 ## External services
+
+Optional app-managed internet hosting uses Cloudflare Quick Tunnels. Cloudflare carries and terminates HTTPS traffic for the connection; its terms and privacy policy apply. Choosing Download Cloudflare helper retrieves the Windows executable and release metadata from Cloudflare’s official GitHub repository and verifies its published SHA-256 digest. The helper runs only for hosting, and closing the app stops its server and tunnel. A new tunnel receives a new address.
 
 Reference buttons open third-party websites in your browser. Downloads, issue reports and this product page use GitHub; page badges use Shields.io. Those services have their own privacy policies. Do not post private backups, personal information or active invite codes in public issues.
