@@ -20,6 +20,10 @@ Invite codes grant access to a room. Share them privately. Guest authentication 
 
 No always-on hosted service or account system is provided with this download. The host can stop hosting or lock new joins. Removing a member disconnects their current session; it does not permanently block that person, and an unlocked invitation can be reused. If you use someone else's relay, their hosting and logging practices also apply.
 
+## Map detail downloads
+
+Map overviews, reference layers and road/relief overlays are bundled for offline use. With **High-detail tiles** enabled, zooming in requests original map tiles over HTTPS from wardogs.zone. That service sees your IP address and requested tile coordinates, which describe the part of the game map being viewed. These requests do not include your profile, loadouts, squad chat or plans. Downloaded tiles are cached locally with a 200 MiB target limit; cached detail remains available offline. Turn off High-detail tiles in the map Display controls to stop new detail requests. Failed requests fall back to the bundled overview.
+
 ## External services
 
 Optional app-managed internet hosting uses Cloudflare Quick Tunnels. Cloudflare carries and terminates HTTPS traffic for the connection; its terms and privacy policy apply. Choosing Download Cloudflare helper retrieves the Windows executable and release metadata from Cloudflare’s official GitHub repository and verifies its published SHA-256 digest. The helper runs only for hosting, and closing the app stops its server and tunnel. A new tunnel receives a new address.
